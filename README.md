@@ -6,13 +6,19 @@
 
 A collection of responsive web apps built with React and Vite. Explore each live demo or open its source and setup guide below.
 
-[Product Search](https://product-search-app-929a5.web.app/) · [Form Wizard](https://multi-step-form-wizard.web.app/) · [Kanban Board](https://kanban-board-23fb7.web.app/) · [Afterglow](https://afterglow-streaming.web.app/) · [Northstar Analytics](https://infozatech-analytics.web.app/)
+[Analytics Dashboard](https://infozatech-analytics.web.app/) · [Product Search](https://product-search-app-929a5.web.app/) · [Form Wizard](https://multi-step-form-wizard.web.app/) · [Kanban Board](https://kanban-board-23fb7.web.app/) · [Afterglow](https://afterglow-streaming.web.app/)
 
 </div>
 
 ---
 
 ## Projects
+
+### Task 1 · Interactive Analytics Dashboard
+
+Northstar Store Analytics is an interactive retail dashboard with charts, filters, sample data, and Firebase Authentication. Its orders and metrics are illustrative and are not connected to a live commerce system.
+
+**[Live demo](https://infozatech-analytics.web.app/)** · [Project files and setup](./infozatech-analytics/) · [Standalone GitHub repo](https://github.com/gamepatt78/northstar-store-analytics)
 
 ### Task 2 · Product Search
 
@@ -38,12 +44,6 @@ Browse 22 original fictional stories, filter by genre, read opening-scene previe
 
 **[Live demo](https://afterglow-streaming.web.app/)** · [Project files and setup](./afterglow-streaming/) · [Standalone GitHub repo](https://github.com/gamepatt78/afterglow)
 
-### Northstar Store Analytics
-
-Explore an interactive retail dashboard with charts, filters, sample data, and Firebase Authentication. The dashboard's orders and metrics are illustrative, not connected to a live commerce system.
-
-**[Live demo](https://infozatech-analytics.web.app/)** · [Project files and setup](./infozatech-analytics/) · [Standalone GitHub repo](https://github.com/gamepatt78/northstar-store-analytics)
-
 ## Run a project locally
 
 Each app is self-contained with its own dependencies and README. Open the app folder you want to run, follow its setup instructions, then install dependencies and start its development server. For example:
@@ -60,11 +60,11 @@ See that app's README for its requirements, configuration, build, and Firebase H
 
 ```text
 INFOZATECH/
+├── infozatech-analytics/
 ├── product-search-app/
 ├── multi-step-form-wizard/
 ├── kanban-board/
-├── afterglow-streaming/
-└── infozatech-analytics/
+└── afterglow-streaming/
 ```
 
 Each folder contains the app source, its README, dependency files, and relevant hosting configuration. The linked standalone repositories are maintained separately as well.
