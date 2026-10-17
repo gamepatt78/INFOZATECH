@@ -22,7 +22,7 @@ Northstar Store Analytics is an interactive retail dashboard with charts, filter
 
 ### Task 2 · Product Search
 
-Search, filter, and sort a public catalog of non-vehicle products, then open items for more details. The catalog contains no vehicle or motorcycle products.
+Search, filter, and sort a public catalog of non-vehicle products, then open items for more details. 
 
 **[Live demo](https://product-search-app-929a5.web.app/)** · [Project files and setup](./product-search-app/) · [Standalone GitHub repo](https://github.com/gamepatt78/product-search-app)
 
