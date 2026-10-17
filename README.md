@@ -2,15 +2,11 @@
 
 # INFOZATECH
 
-### A collection of web application projects
+### Web projects, all in one place.
 
-Independent, responsive demos built with React and Vite, with selected projects deployed on Firebase Hosting. The apps and their setup guides are included in this repository under their own folders.
+A collection of responsive web apps built with React and Vite. Explore each live demo or open its source and setup guide below.
 
-[Product Search](https://product-search-app-929a5.web.app/) ·
-[Form Wizard](https://multi-step-form-wizard.web.app/) ·
-[Kanban Board](https://kanban-board-23fb7.web.app/) ·
-[Afterglow](https://afterglow-streaming.web.app/) ·
-[Northstar Analytics](https://infozatech-analytics.web.app/)
+[Product Search](https://product-search-app-929a5.web.app/) · [Form Wizard](https://multi-step-form-wizard.web.app/) · [Kanban Board](https://kanban-board-23fb7.web.app/) · [Afterglow](https://afterglow-streaming.web.app/) · [Northstar Analytics](https://infozatech-analytics.web.app/)
 
 </div>
 
@@ -18,37 +14,57 @@ Independent, responsive demos built with React and Vite, with selected projects 
 
 ## Projects
 
-Each app is self-contained in its own folder and can be explored, built, and deployed independently.
+### Task 2 · Product Search
 
-| Project | What it does | Live demo | Files in this repository | Standalone source |
-| --- | --- | --- | --- | --- |
-| **Product Search** · Task 2 | Search, filter, sort, and inspect products from a public catalog. Vehicle and motorcycle categories are excluded. | [Open app](https://product-search-app-929a5.web.app/) | [README and source](./product-search-app/) | [GitHub](https://github.com/gamepatt78/product-search-app) |
-| **Multi-Step Form Wizard** · Task 3 | Complete validated personal and address steps, review entries, and see a submission confirmation. | [Open app](https://multi-step-form-wizard.web.app/) | [README and source](./multi-step-form-wizard/) | [GitHub](https://github.com/gamepatt78/multi-step-form-wizard) |
-| **Kanban Board** · Task 4 | Organize work across To Do, In Progress, and Done with editable, draggable cards and browser persistence. | [Open app](https://kanban-board-23fb7.web.app/) | [README and source](./kanban-board/) | [GitHub](https://github.com/gamepatt78/kanban-board) |
-| **Afterglow** · Task 5 | Browse 22 original fictional stories, open details, read opening-scene previews, and save favorites. | [Open app](https://afterglow-streaming.web.app/) | [README and source](./afterglow-streaming/) | [GitHub](https://github.com/gamepatt78/afterglow) |
-| **Northstar Store Analytics** | Explore an interactive retail analytics dashboard with sample data, charts, filters, and Firebase Authentication. | [Open app](https://infozatech-analytics.web.app/) | [README and source](./infozatech-analytics/) | [GitHub](https://github.com/gamepatt78/northstar-store-analytics) |
+Search, filter, and sort a public product catalog, then open products for more details. Vehicle and motorcycle categories are excluded.
 
-## About this collection
+**[Live demo](https://product-search-app-929a5.web.app/)** · [Project files and setup](./product-search-app/) · [Standalone GitHub repo](https://github.com/gamepatt78/product-search-app)
 
-This repository brings the task projects together while keeping each app self-contained in its own folder. Each app has its own README, dependency manifest, and Firebase Hosting configuration. The apps do not share a backend unless their documentation says otherwise. Standalone repositories are also maintained for the individual apps.
+### Task 3 · Multi-Step Form Wizard
 
-## Tech
+Enter personal and address details step by step, review the information, and see a confirmation. The demo validates input in the browser and does not send form data to a backend.
 
-The projects use a combination of:
+**[Live demo](https://multi-step-form-wizard.web.app/)** · [Project files and setup](./multi-step-form-wizard/) · [Standalone GitHub repo](https://github.com/gamepatt78/multi-step-form-wizard)
 
-- React and Vite
-- Responsive CSS and Lucide icons
-- Firebase Hosting
-- Browser storage for selected demo preferences and board state
-- Firebase Authentication in Northstar Store Analytics
+### Task 4 · Kanban Board
 
-## Run a project
+Organize cards across To Do, In Progress, and Done. Drag cards between columns or use the board controls; changes persist in the current browser.
 
-Open an app folder from the table above and follow its README for requirements, local development, production builds, and deployment. Install dependencies and run commands from inside that app's folder. Each app has its own dependencies and Firebase Hosting configuration.
+**[Live demo](https://kanban-board-23fb7.web.app/)** · [Project files and setup](./kanban-board/) · [Standalone GitHub repo](https://github.com/gamepatt78/kanban-board)
 
-## Notes
+### Task 5 · Afterglow
 
-- Product Search and Northstar display illustrative public or sample data; see each project's README for data details.
-- The Form Wizard is a front-end demonstration and does not send submitted details to a backend.
-- The Kanban Board saves board state in the current browser.
-- Afterglow uses original fictional stories and CSS-generated poster illustrations.
+Browse 22 original fictional stories, filter by genre, read opening-scene previews, and save favorites.
+
+**[Live demo](https://afterglow-streaming.web.app/)** · [Project files and setup](./afterglow-streaming/) · [Standalone GitHub repo](https://github.com/gamepatt78/afterglow)
+
+### Northstar Store Analytics
+
+Explore an interactive retail dashboard with charts, filters, sample data, and Firebase Authentication. The dashboard's orders and metrics are illustrative, not connected to a live commerce system.
+
+**[Live demo](https://infozatech-analytics.web.app/)** · [Project files and setup](./infozatech-analytics/) · [Standalone GitHub repo](https://github.com/gamepatt78/northstar-store-analytics)
+
+## Run a project locally
+
+Each app is self-contained with its own dependencies and README. Open the app folder you want to run, follow its setup instructions, then install dependencies and start its development server. For example:
+
+```powershell
+cd product-search-app
+npm.cmd ci
+npm.cmd run dev
+```
+
+See that app's README for its requirements, configuration, build, and Firebase Hosting deployment steps.
+
+## Repository layout
+
+```text
+INFOZATECH/
+├── product-search-app/
+├── multi-step-form-wizard/
+├── kanban-board/
+├── afterglow-streaming/
+└── infozatech-analytics/
+```
+
+Each folder contains the app source, its README, dependency files, and relevant hosting configuration. The linked standalone repositories are maintained separately as well.
