@@ -68,3 +68,7 @@ INFOZATECH/
 ```
 
 Each folder contains the app source, its README, dependency files, and relevant hosting configuration. The linked standalone repositories are maintained separately as well.
+
+## LinkedIn post drafts
+
+Ready-to-edit LinkedIn captions for the five internship tasks are collected in [`linkedin-posts/`](./linkedin-posts/). Choose a post, attach your demo video, and tag the InfozaTech page before publishing.
